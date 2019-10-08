@@ -1,0 +1,38 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background: #292929;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px #222;
+}
+
+.footer-item {
+  flex: 1 1 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-item a {
+  color: #fff;
+}
+
+.footer-item a:hover {
+  text-decoration: none;
+  color: #37a2cc;
+}
+
+.footer-item img {
+  height: 32px;
+}
+
+/* BIG SCREEN */
+@media screen and (min-width: 768px) {
+  .footer-item img {
+    height: 50px;
+  }
+}
